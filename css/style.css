@@ -1,0 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Peralta);
+ html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #a7cfdf; 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7cfdf), color-stop(100%,#23538a)); 
+    background: -webkit-linear-gradient(top,  #a7cfdf 0%,#23538a 100%); 
+    background: linear-gradient(to bottom,  #a7cfdf 0%,#23538a 100%); 
+}
+canvas {
+    position: absolute;
+}
+
+div.dg{
+	display: none;
+}
